@@ -1,0 +1,7 @@
+2021-12-26 09:35:38,958 [main] INFO Class1_GmailLogin - Opening browser
+2021-12-26 09:35:47,993 [main] INFO Class1_GmailLogin - Opening url
+2021-12-26 09:35:48,624 [main] INFO Class1_GmailLogin - Username entered
+2021-12-26 09:35:48,955 [main] INFO Class1_GmailLogin - First name entered
+2021-12-26 09:35:49,457 [main] INFO Class1_GmailLogin - Last name entered
+2021-12-26 09:35:49,875 [main] INFO Class1_GmailLogin - mail id entered
+2021-12-26 09:35:50,059 [main] INFO Class1_GmailLogin - country selected

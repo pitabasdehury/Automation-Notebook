@@ -1,0 +1,10 @@
+Inorder to support the page object pattern (POM), webdrivers' support library contains a factory class.
+
+Method  :  initElement  --> to initialize web elements of Page object into the webdriver
+
+Annotation  :   @FindBy  --> it find web elements through id, class, xpath, css, linkText, partialLinkText
+                             It cant not be declared inside method, should be declared globally
+           @CacheLookUp  --> Marker annotation to be applied to WebElements to indicate that it never changes
+                             Means : this annotation specify that the key value of the WebElement never change
+
+Important feature of Page Factory is Cache feature that will store all frequently used web elements.

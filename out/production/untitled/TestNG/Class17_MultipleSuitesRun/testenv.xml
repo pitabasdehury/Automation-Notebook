@@ -1,0 +1,9 @@
+<suite name = "Test Suite">
+    <test name = "TestEnv Test">
+        <classes>
+            <class name = "TestNG.Class17_MultipleSuitesRun.testenv.RegisterTest" />
+            <class name = "TestNG.Class17_MultipleSuitesRun.testenv.LoginTest" />
+            <class name = "TestNG.Class17_MultipleSuitesRun.testenv.LogoutTest" />
+        </classes>
+    </test>
+</suite>

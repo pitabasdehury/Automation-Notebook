@@ -1,0 +1,11 @@
+<suite name = "Parameterization Suite">
+    <test name = "Parameterization Test">
+        <parameter name = "Browser" value = "Chrome" />     <!-- These are environment / configuration variables -->
+        <parameter name = "url" value = "https://facebook.com" />
+        <parameter name = "username" value = "9668510418" />
+        <parameter name = "password" value = "Kala@1234" />
+        <classes>
+            <class name = "TestNG.Class13_Parameterization_TestNGxml"></class>
+        </classes>
+    </test>
+</suite>

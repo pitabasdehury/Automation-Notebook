@@ -1,0 +1,9 @@
+<suite name = "UAT Suite">
+    <test name = "UATenv Test">
+        <classes>
+            <class name = "TestNG.Class17_MultipleSuitesRun.uatenv.RegisterUAT" />
+            <class name = "TestNG.Class17_MultipleSuitesRun.uatenv.LoginUAT" />
+            <class name = "TestNG.Class17_MultipleSuitesRun.uatenv.LogoutUAT" />
+        </classes>
+    </test>
+</suite>

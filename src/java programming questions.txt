@@ -1,0 +1,3 @@
+Fibonacci Series in Java    --> normal way & recursion way
+Prime Number program in java --> check a particular no is prime or not
+                                  Print all prime numbers between given numbers

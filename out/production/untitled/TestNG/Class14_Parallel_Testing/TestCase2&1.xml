@@ -1,0 +1,8 @@
+<suite name = "Parallel Testing Suite">
+    <test name = "TestCase2 and 1 Test" parallel = "classes" thread-count = "2">
+        <classes>
+            <class name = "TestNG.Class14_Parallel_Testing.TestCase1"/>
+            <class name = "TestNG.Class14_Parallel_Testing.TestCase2"/>
+        </classes>
+    </test>
+</suite>

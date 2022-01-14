@@ -1,0 +1,11 @@
+
+<suite name = "Demo Suite">
+    <test name = "Batch Test">
+        <classes>
+            <class name = "TestNG.Class3_Enabled_false"></class>
+            <class name = "TestNG.Class4_dependsOnMethods"></class>
+            <class name = "TestNG.Class5_alwaysRun"></class>
+            <class name = "TestNG.Class6_AlwaysRun_Vs_Enabled_false"></class>
+        </classes>
+    </test>
+</suite>

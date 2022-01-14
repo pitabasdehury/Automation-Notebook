@@ -1,0 +1,9 @@
+<suite name = "Product Suite">
+    <test name = "Product Test">
+        <classes>
+            <class name = "TestNG.Class17_MultipleSuitesRun.prodenv.RegisterProd" />
+            <class name = "TestNG.Class17_MultipleSuitesRun.prodenv.LoginProd" />
+            <class name = "TestNG.Class17_MultipleSuitesRun.prodenv.LogoutProd" />
+        </classes>
+    </test>
+</suite>

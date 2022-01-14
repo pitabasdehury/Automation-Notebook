@@ -1,0 +1,21 @@
+<suite name="Group Suite">
+    <test name="Groups Test">
+        <groups>
+            <define name="EveningTestGroup">     <!-- If you want to run a particular group test cases in specific time,
+                                                      hen you have to define them   -->
+                <include name = "Smoke"/>        <!-- And then include groups into the meta-group    -->
+                <include name = "Regression"/>
+            </define>
+            <run>
+                <include name = "EveningTestGroup"/>    <!-- Including meta-group to run -->
+                <include name="Sanity"/>
+                <include name="Regression"/>  <!-- If you want to run group test cases, use include tag   -->
+                <exclude name="Smoke"/>      <!-- - If you don't want to some group test cases, use exclude tag
+                                                     - exclude tag is more powerful than include tag    -->
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNG.Class15_Groups"/>
+        </classes>
+    </test>
+</suite>
