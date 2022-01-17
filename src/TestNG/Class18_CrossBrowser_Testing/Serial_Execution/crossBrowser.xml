@@ -1,0 +1,30 @@
+<suite name = "cross-browser suite">
+    <test name = "chromeTestCases">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "TestNG.Class18_CrossBrowser_Testing.Serial_Execution.VerifyTitle" />
+        </classes>
+    </test>
+
+    <test name = "OperaTestCases">
+        <parameter name = "browser" value = "Opera" />
+        <classes>
+            <class name = "TestNG.Class18_CrossBrowser_Testing.Serial_Execution.VerifyTitle" />
+        </classes>
+    </test>
+
+
+    <test name = "Microsoft Edge TestCases">
+        <parameter name = "browser" value = "Edge" />
+        <classes>
+            <class name = "TestNG.Class18_CrossBrowser_Testing.Serial_Execution.VerifyTitle" />
+        </classes>
+    </test>
+
+    <test name = "IETestCases">
+        <parameter name = "browser" value = "IE" />
+        <classes>
+            <class name = "TestNG.Class18_CrossBrowser_Testing.Serial_Execution.VerifyTitle" />
+        </classes>
+    </test>
+</suite>
